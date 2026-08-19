@@ -53,9 +53,10 @@ export function FAQ() {
                         className={`accordion-content ${isOpen ? 'open' : ''}`}
                       >
                         <div>
-                          <p className="px-5 pb-4 text-sm leading-relaxed text-gray-600">
-                            {item.a}
-                          </p>
+                          <p
+                            className="px-5 pb-4 text-sm leading-relaxed text-gray-600"
+                            dangerouslySetInnerHTML={{ __html: item.a }}
+                          />
                         </div>
                       </div>
                     </div>
