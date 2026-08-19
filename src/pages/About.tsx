@@ -17,7 +17,7 @@ const doctors: Doctor[] = [
   {
     name: 'Dr. Eduardo Pérez-Salvador',
     collegiate: 'Colegiado 092852936',
-    image: '/images/eduardoperezsalvador02.jpg',
+    image: '/images/dr-eduardo-perez-salvador.jpg',
     email: 'eduardo@perezsalvadoroftalmologos.com',
     bio: 'Licenciado por la Universidad de Navarra con calificación de Notable. Alumno interno por méritos. Especialista en Oftalmología y Cirugía Oculoplástica. Miembro de la SERV (Sociedad Española de Retina y Vítreo) y Vocal por Burgos de la ACLOFT.',
     highlights: [
