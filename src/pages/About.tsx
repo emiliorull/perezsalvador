@@ -32,7 +32,7 @@ const doctors: Doctor[] = [
   {
     name: 'Dr. José Luis Pérez-Salvador',
     collegiate: 'Colegiado 090902129',
-    image: '/images/joseluisperezsalvador02.jpg',
+    image: '/images/dr-perez-salvador.jpg',
     email: 'joseluis@perezsalvadoroftalmologos.com',
     bio: 'Fundador de la Clínica Oftalmológica Pérez Salvador. Licenciado en Medicina y Cirugía por la Universidad de Granada. Residencia MIR en Clínica de la Concepción (Fundación Jiménez Díaz) y Clínica Puerta de Hierro de Madrid. Formación en centros de Holanda, Suiza y Francia. Título Europeo FEBO (Fellow European Board of Ophthalmology). Fundador y Presidente-Consejero de la Sociedad Castellano-Leonesa de Oftalmología. Actualmente jubilado de la práctica clínica, permanece como fundador y consejero de la clínica.',
     highlights: [

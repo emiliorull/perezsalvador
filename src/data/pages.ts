@@ -28,6 +28,6 @@ export const clinicInfo = {
   phone: '947 22 30 12',
   phoneHref: 'tel:+34947223012',
   email: 'info@perezsalvadoroftalmologos.com',
-  logo: '/images/cropped-logo_PSO.jpg',
+  logo: '/images/logo.jpg',
   heroImage: '/images/ojos_pso.jpg',
 };
