@@ -1,4 +1,4 @@
-import { Mail, Award, GraduationCap, Briefcase, BadgeCheck, UserCheck, Building } from 'lucide-react';
+﻿import { Mail, Award, GraduationCap, Briefcase, BadgeCheck, UserCheck, Building } from 'lucide-react';
 import { PageHeader } from '../components/PageHeader';
 import { clinicInfo } from '../data/pages';
 
@@ -47,7 +47,7 @@ const doctors: Doctor[] = [
   },
 ];
 
-export function About() {
+export function About({ navigate }: { navigate: (to: string) => void }) {
   return (
     <div>
       <PageHeader
@@ -142,6 +142,13 @@ export function About() {
                         <span className="text-sm text-gray-700">{h}</span>
                       </div>
                     ))}
+                    <div className="mt-8">
+                    <button
+                      onClick={() => navigate(doc.name.includes("Eduardo") ? "dr-eduardo-perez-salvador" : "dr-jose-luis-perez-salvador")}
+                      className="inline-flex items-center justify-center rounded-full bg-primary-600 px-6 py-2.5 text-sm font-semibold text-white hover:bg-primary-700 transition-colors shadow-sm"
+                    >
+                      Ver mi CV completo
+                    </button>
                   </div>
                 </div>
               </div>
@@ -168,3 +175,4 @@ export function About() {
     </div>
   );
 }
+

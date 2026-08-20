@@ -1,4 +1,4 @@
-import { useEffect, useState, useCallback } from 'react';
+﻿import { useEffect, useState, useCallback } from 'react';
 import { Navbar } from './Navbar';
 import { Footer } from './Footer';
 import { CookieBanner } from './CookieBanner';
@@ -10,10 +10,15 @@ import { Equipment } from '../pages/Equipment';
 import { Surgical } from '../pages/Surgical';
 import { FAQ } from '../pages/FAQ';
 import { Legal } from '../pages/Legal';
+import { DrEduardo } from '../pages/DrEduardo';
+import { DrJoseLuis } from '../pages/DrJoseLuis';
+
 
 const pageMap: Record<string, React.ComponentType> = {
   '': Home,
   'quienes-somos': About,
+  'dr-eduardo-perez-salvador': DrEduardo,
+  'dr-jose-luis-perez-salvador': DrJoseLuis,
   'ubicacion-contacto': Location,
   'dotacion-equipos': Equipment,
   'area-quirurgica': Surgical,
@@ -63,3 +68,4 @@ export function Router() {
 }
 
 export type NavigateFn = (to: string) => void;
+
