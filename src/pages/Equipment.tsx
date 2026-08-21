@@ -71,10 +71,10 @@ const equipment: EquipmentItem[] = [
 ];
 
 const gallery = [
-  { src: '/images/SalaEspera1.jpg', alt: 'Sala de espera 1' },
-  { src: '/images/SalaEspera2.jpg', alt: 'Sala de espera 2' },
-  { src: '/images/despacho01.jpg', alt: 'Despacho' },
-  { src: '/images/sala_exploracion.jpg', alt: 'Sala de exploración' },
+  { src: '/images/equipos-1.jpg', alt: 'Sala de espera' },
+  { src: '/images/equipos-2.jpg', alt: 'Sala de exploración' },
+  { src: '/images/equipos-3.jpg', alt: 'Despachos' },
+  { src: '/images/equipos-4.jpg', alt: 'Despachos' },
 ];
 
 export function Equipment() {
@@ -110,7 +110,7 @@ export function Equipment() {
             </div>
             <div className="overflow-hidden rounded-2xl shadow-2xl">
               <img
-                src="/images/luzpulsada.jpeg"
+                src="/images/thermoeye.jpg"
                 alt="Tratamiento ThermaEye con luz pulsada"
                 className="aspect-[4/3] w-full object-cover"
               />
