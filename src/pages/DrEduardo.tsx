@@ -13,7 +13,7 @@ export function DrEduardo() {
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 space-y-16">
           <div className="flex flex-col md:flex-row gap-12 items-start">
             <div className="md:w-1/3">
-              <img src="/images/IMG_1960.jpg" alt="Dr. Eduardo Pérez-Salvador" className="w-full rounded-2xl shadow-md" />
+              <img src="/images/dr-eduardo-office.jpg" alt="Dr. Eduardo Pérez-Salvador" className="w-full rounded-2xl shadow-md" />
             </div>
             <div className="md:w-2/3 text-lg text-gray-700 space-y-4">
               <p><span className="font-bold text-gray-900">Colegiado 092852936</span></p>
@@ -30,7 +30,7 @@ export function DrEduardo() {
 
           <div className="flex flex-col md:flex-row-reverse gap-12 items-start mt-16">
             <div className="md:w-1/3">
-              <img src="/images/eduardoperezsalvador02.jpg" alt="Dr. Eduardo Pérez-Salvador operando" className="w-full rounded-2xl shadow-md" />
+              <img src="/images/dr-eduardo-surgery.jpg" alt="Dr. Eduardo Pérez-Salvador operando" className="w-full rounded-2xl shadow-md" />
             </div>
             <div className="md:w-2/3 text-lg text-gray-700 space-y-4">
               <p>Editor de la Revista Americana de difusión internacional Revista Cibernética de Oftalmología.</p>
@@ -71,3 +71,4 @@ export function DrEduardo() {
     </div>
   );
 }
+

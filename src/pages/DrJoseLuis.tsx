@@ -11,11 +11,11 @@ export function DrJoseLuis() {
       <section className="bg-white py-16 lg:py-24">
         <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 space-y-16">
           <div className="mb-6 bg-yellow-50 border-l-4 border-yellow-400 p-4">
-              <p className="text-sm text-yellow-700"><strong>Nota:</strong> El Dr. José Luis Pérez-Salvador es el fundador de la clínica y actualmente no se encuentra en activo por jubilación.</p>
+              <p className="text-sm text-yellow-700"><strong>Nota:</strong> El Dr. José Luis Pérez-Salvador es el fundador de la clínica y actualmente es consejero no activo profesionalmente.</p>
           </div>
           <div className="flex flex-col md:flex-row gap-12 items-start">
             <div className="md:w-1/3">
-              <img src="/images/JLPS.jpg" alt="Dr. José Luis Pérez-Salvador" className="w-full rounded-2xl shadow-md" />
+              <img src="/images/dr-jose-luis-office.jpg" alt="Dr. José Luis Pérez-Salvador" className="w-full rounded-2xl shadow-md" />
             </div>
             <div className="md:w-2/3 text-lg text-gray-700 space-y-4">
               <p><span className="font-bold text-gray-900">Colegiado 090902129</span></p>
@@ -34,7 +34,7 @@ export function DrJoseLuis() {
 
           <div className="flex flex-col md:flex-row-reverse gap-12 items-start mt-16">
             <div className="md:w-1/3">
-              <img src="/images/joseluisperezsalvador02.jpg" alt="Dr. José Luis Pérez-Salvador operando" className="w-full rounded-2xl shadow-md" />
+              <img src="/images/dr-jose-luis-surgery.jpg" alt="Dr. José Luis Pérez-Salvador operando" className="w-full rounded-2xl shadow-md" />
             </div>
             <div className="md:w-2/3 text-lg text-gray-700 space-y-4">
               <p className="text-justify">Participación en numerosos Congresos y Reuniones de la especialidad, actuando como ponente en más de doscientas conferencias, mesas redondas, cursos y comunicaciones, obteniendo en éstas últimas el Primer Premio Nacional en tres ocasiones.</p>
@@ -67,3 +67,4 @@ export function DrJoseLuis() {
     </div>
   );
 }
+

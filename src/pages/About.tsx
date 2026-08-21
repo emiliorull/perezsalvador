@@ -34,7 +34,7 @@ const doctors: Doctor[] = [
     collegiate: 'Colegiado 090902129',
     image: '/images/dr-perez-salvador.jpg',
     email: 'joseluis@perezsalvadoroftalmologos.com',
-    bio: 'Fundador de la Clínica Oftalmológica Pérez Salvador. Licenciado en Medicina y Cirugía por la Universidad de Granada. Residencia MIR en Clínica de la Concepción (Fundación Jiménez Díaz) y Clínica Puerta de Hierro de Madrid. Formación en centros de Holanda, Suiza y Francia. Título Europeo FEBO (Fellow European Board of Ophthalmology). Fundador y Presidente-Consejero de la Sociedad Castellano-Leonesa de Oftalmología. Actualmente jubilado de la práctica clínica, permanece como fundador y consejero de la clínica.',
+    bio: 'Fundador de la Clínica Oftalmológica Pérez Salvador. Licenciado en Medicina y Cirugía por la Universidad de Granada. Residencia MIR en Clínica de la Concepción (Fundación Jiménez Díaz) y Clínica Puerta de Hierro de Madrid. Formación en centros de Holanda, Suiza y Francia. Título Europeo FEBO (Fellow European Board of Ophthalmology). Fundador y Presidente-Consejero de la Sociedad Castellano-Leonesa de Oftalmología. Actualmente consejero no activo profesionalmente, permanece como fundador y consejero de la clínica.',
     highlights: [
       'Licenciado en Medicina y Cirugía, Universidad de Granada',
       'MIR en Fundación Jiménez Díaz y Clínica Puerta de Hierro (Madrid)',
@@ -107,7 +107,7 @@ export function About({ navigate }: { navigate: (to: string) => void }) {
                     ) : (
                       <span className="inline-flex items-center gap-1 rounded-full bg-gray-100 px-3 py-1 text-xs font-semibold text-gray-600">
                         <Building className="h-3.5 w-3.5" />
-                        Fundador · Jubilado
+                        Fundador · Consejero no activo profesionalmente
                       </span>
                     )}
                   </div>
@@ -170,3 +170,4 @@ export function About({ navigate }: { navigate: (to: string) => void }) {
     </div>
   );
 }
+
