@@ -19,10 +19,10 @@ const doctors: Doctor[] = [
     collegiate: 'Colegiado 092852936',
     image: '/images/dr-eduardo-perez-salvador.jpg',
     email: 'eduardo@perezsalvadoroftalmologos.com',
-    bio: 'Licenciado por la Universidad de Navarra con calificación de Notable. Alumno interno por méritos. Especialista en Oftalmología y Cirugía Oculoplástica. Miembro de la SERV (Sociedad Española de Retina y Vítreo) y Vocal por Burgos de la ACLOFT.',
+    bio: 'Licenciado por la Universidad de Navarra. Alumno interno por méritos. Especialista en Oftalmología y Cirugía Oculoplástica. Miembro de la SERV (Sociedad Española de Retina y Vítreo) y Vocal por Burgos de la ACLOFT.',
     highlights: [
-      'Licenciado por la Universidad de Navarra (Notable)',
-      'Alumno interno por méritos académicos',
+      'Licenciado por la Universidad de Navarra',
+      'Doctor en Medicina y Cirugía con Sobresaliente CUM LAUDE',
       'Especialista en Oftalmología y Cirugía Oculoplástica',
       'Miembro de la SERV – Sociedad Española de Retina y Vítreo',
       'Vocal por Burgos de la ACLOFT',
