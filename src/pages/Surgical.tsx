@@ -17,7 +17,7 @@ export function Surgical({ navigate }: SurgicalProps) {
     {
       icon: HeartPulse,
       title: 'Tecnología avanzada',
-      desc: 'Instrumental óptico Zeiss de última generación para cirugía de precisión.',
+      desc: 'Instrumental óptico de última generación para cirugía de precisión.',
     },
     {
       icon: Building2,
@@ -27,7 +27,7 @@ export function Surgical({ navigate }: SurgicalProps) {
     {
       icon: Stethoscope,
       title: 'Cirugía ambulatoria',
-      desc: 'La mayoría de procedimientos son ambulatorios, con recuperación rápida y sin ingreso.',
+      desc: 'Procedimientos ambulatorios, con recuperación rápida y sin ingreso.',
     },
   ];
 
@@ -45,12 +45,12 @@ export function Surgical({ navigate }: SurgicalProps) {
               <div className="overflow-hidden rounded-2xl shadow-xl">
                 <img
                   src="/images/quirofano.jpg"
-                  alt="Quirófano con instrumental Zeiss"
+                  alt="Quirófano con instrumental óptico de alta precisión"
                   className="aspect-[4/3] w-full object-cover"
                 />
               </div>
               <p className="mt-3 text-center text-sm text-gray-500">
-                Quirófano equipado con instrumental óptico Zeiss
+                Quirófano equipado con instrumental óptico de alta precisión
               </p>
             </div>
 
@@ -62,7 +62,7 @@ export function Surgical({ navigate }: SurgicalProps) {
                 La mayoría de las intervenciones quirúrgicas se realizan en los
                 quirófanos de la Clínica Recoletas en Burgos, garantizando la
                 máxima seguridad y tecnología. Contamos con instrumental óptico
-                Zeits de precisión para ofrecer los mejores resultados en cada
+                de alta precisión para ofrecer los mejores resultados en cada
                 procedimiento.
               </p>
               <p className="mt-4 leading-relaxed text-gray-700">
