@@ -64,6 +64,8 @@ const equipment: EquipmentItem[] = [
       'Retinoscopios',
       'Tonómetros de aplanación',
       'Queratómetros',
+      'Gabinete de adaptación de lentes de contacto',
+      'Ayudas de Baja Visión',
     ],
   },
 ];
@@ -79,8 +81,8 @@ export function Equipment() {
   return (
     <div>
       <PageHeader
-        title="Dotación de Equipos"
-        subtitle="Equipamiento de última generación para diagnóstico, tratamiento y seguimiento de todas las patologías oculares."
+        title="Equipamiento de última generación"
+        subtitle="Contamos con un equipamiento de última generación que nos permite realizar una amplia gama de estudios que ayudan al diagnóstico, tratamiento y seguimiento de la mayoría de las enfermedades oculares."
       />
 
       {/* ThermaEye highlight */}
