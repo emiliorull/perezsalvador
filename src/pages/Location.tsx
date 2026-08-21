@@ -1,10 +1,37 @@
-import { MapPin, Phone, Mail, Clock, Send, CheckCircle2 } from 'lucide-react';
+﻿import { MapPin, Phone, Mail, Clock, Send, CheckCircle2 } from 'lucide-react';
 import { PageHeader } from '../components/PageHeader';
 import { clinicInfo } from '../data/pages';
 import { useState } from 'react';
 
 export function Location() {
   const [submitted, setSubmitted] = useState(false);
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    const form = e.currentTarget;
+    const formData = new FormData(form);
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json"
+        },
+        body: json
+      });
+      const result = await response.json();
+      if (result.success) {
+        setSubmitted(true);
+      } else {
+        alert("Hubo un error al enviar el formulario.");
+      }
+    } catch (error) {
+      alert("Error de conexión. Inténtalo de nuevo.");
+    }
+  };
 
   const mapSrc =
     'https://www.google.com/maps?q=' +
@@ -101,7 +128,7 @@ export function Location() {
                 <form
                   action="https://api.web3forms.com/submit"
                   method="POST"
-                  onSubmit={() => setSubmitted(true)}
+                  onSubmit={handleSubmit}
                   className="mt-6 space-y-4"
                 >
                   <input
@@ -232,3 +259,4 @@ export function Location() {
     </div>
   );
 }
+
