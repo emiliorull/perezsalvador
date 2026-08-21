@@ -75,6 +75,9 @@ const gallery = [
   { src: '/images/equipos-2.jpg', alt: 'Sala de exploración' },
   { src: '/images/equipos-3.jpg', alt: 'Despachos' },
   { src: '/images/equipos-4.jpg', alt: 'Despachos' },
+  { src: '/images/equipos-5.jpg', alt: 'Sala de espera' },
+  { src: '/images/equipos-6.jpg', alt: 'Sala de espera' },
+  { src: '/images/equipos-7.jpg', alt: 'Despachos' },
 ];
 
 export function Equipment() {
