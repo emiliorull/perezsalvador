@@ -19,13 +19,13 @@ const doctors: Doctor[] = [
     collegiate: 'Colegiado 092852936',
     image: '/images/dr-eduardo-perez-salvador.jpg',
     email: 'eduardo@perezsalvadoroftalmologos.com',
-    bio: 'Licenciado por la Universidad de Navarra. Alumno interno por méritos. Especialista en Oftalmología y Cirugía Oculoplástica. Miembro de la SERV (Sociedad Española de Retina y Vítreo) y Vocal por Burgos de la ACLOFT.',
+    bio: 'Licenciado por la Universidad de Navarra. Alumno interno por méritos. Especialista en Oftalmología y Cirugía Vitreorretiniana. Miembro de la SERV (Sociedad Española de Retina y Vítreo) y fue Vocal por Burgos de la ACLOFT.',
     highlights: [
       'Licenciado por la Universidad de Navarra',
       'Doctor en Medicina y Cirugía con Sobresaliente CUM LAUDE',
       'Especialista en Oftalmología y Cirugía Oculoplástica',
       'Miembro de la SERV – Sociedad Española de Retina y Vítreo',
-      'Vocal por Burgos de la ACLOFT',
+      'ex-Vocal por Burgos de la ACLOFT',
     ],
     status: 'active',
   },
@@ -59,7 +59,7 @@ export function About({ navigate }: { navigate: (to: string) => void }) {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-3xl text-center">
             <p className="text-lg leading-relaxed text-gray-600">
-              Ante todo somos médicos oftalmólogos y no una empresa, cadena o franquicia dedicada a explotar la inversión realizada con un objetivo primordial empresarial y económico. Nuestro objetivo es el bienestar y la salud de nuestros pacientes. Para ello, disponemos de la tecnología de vanguardia más avanzada, personalizando el tratamiento de cada paciente y buscando la mejor calidad de visión.
+              Nuestro objetivo es el bienestar y la salud de nuestros pacientes. Para ello, disponemos de la tecnología de vanguardia más avanzada, personalizando el tratamiento de cada paciente y buscando la mejor calidad de visión.
             </p>
           </div>
 

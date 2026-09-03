@@ -64,12 +64,12 @@ export function Home({ navigate }: HomeProps) {
               Oftalmología especializada en Burgos
             </div>
             <h1 className="mt-6 text-4xl font-bold leading-tight tracking-tight text-white sm:text-5xl lg:text-6xl">
-              Cuidamos tus ojos para que lo veas claro y nítido
+              Cuidamos sus ojos para que lo vea claro y nítido
             </h1>
             <p className="mt-6 text-lg leading-relaxed text-primary-100">
               Clínica Oftalmológica Pérez Salvador. Atención oftalmológica
               integral con la tecnología más avanzada y el rigor médico que
-              mereces.
+              merece.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <a
@@ -100,13 +100,8 @@ export function Home({ navigate }: HomeProps) {
             </div>
           </div>
           <blockquote className="mt-6 text-center text-2xl font-medium leading-relaxed text-gray-800 sm:text-3xl">
-            "Ante todo somos médicos oftalmólogos y no una empresa, cadena o
-            franquicia dedicada a explotar la inversión realizada con un
-            objetivo primordial empresarial y económico.
-          </blockquote>
-          <p className="mt-4 text-center text-xl font-semibold text-burgundy-700">
             Nuestro objetivo es el bienestar y la salud de nuestros pacientes.
-          </p>
+          </blockquote>
         </div>
       </section>
 

@@ -156,10 +156,6 @@ export const faqData: FAQCategory[] = [
         a: "Se corrige ópticamente con gafas o lentes de contacto. La corrección definitiva se realiza mediante <strong>cirugía refractiva con láser Excimer</strong> o, en casos de alta miopía donde el láser no es aconsejable, mediante la implantación de lentes intraoculares fáquicas (ICL)."
       },
       {
-        q: '¿Se puede frenar el avance de la miopía?',
-        a: "Actualmente existen tratamientos probados científicamente para ralentizar (no detener por completo) la progresión de la miopía en niños y adolescentes, tales como ciertos colirios (atropina diluida) y lentes de contacto o gafas de desenfoque periférico."
-      },
-      {
         q: '¿Qué es la hipermetropía y cómo se trata?',
         a: "En la hipermetropía, el ojo suele ser más corto de lo normal, provocando que las imágenes se enfoquen por detrás de la retina. Genera fatiga visual y mala visión de cerca (y a veces también de lejos). Se trata con gafas, lentillas, cirugía láser o lentes intraoculares."
       },

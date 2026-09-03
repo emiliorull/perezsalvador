@@ -101,14 +101,6 @@ export function Location() {
                   <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-primary-50">
                     <Clock className="h-5 w-5 text-primary-700" />
                   </div>
-                  <div>
-                    <p className="font-semibold text-gray-900">Horario</p>
-                    <p className="text-gray-600">
-                      Lunes a Viernes
-                      <br />
-                      10:00 – 14:00 / 16:00 – 19:00
-                    </p>
-                  </div>
                 </div>
               </div>
 
