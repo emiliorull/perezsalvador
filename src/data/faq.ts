@@ -190,7 +190,7 @@ export const faqData: FAQCategory[] = [
       },
       {
         q: '¿Qué debo hacer si me parece que mi hijo desvía un ojo?',
-        a: "Debe acudir <strong>inmediatamente</strong> al oftalmólogo pediátrico. Nunca asuma que 'ya se le pasará con el tiempo'. El estrabismo requiere valoración y tratamiento tempranos para garantizar un correcto desarrollo visual binocular."
+        a: "Debe acudir <strong>inmediatamente</strong> al oftalmólogo. Nunca asuma que 'ya se le pasará con el tiempo'. El estrabismo requiere valoración y tratamiento tempranos para garantizar un correcto desarrollo visual binocular."
       },
       {
         q: '¿Cuál es el tratamiento del estrabismo?',

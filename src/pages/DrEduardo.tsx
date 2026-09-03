@@ -45,7 +45,7 @@ export function DrEduardo() {
               <p>Participación como investigador en 15 proyectos de investigación a nivel nacional e internacional.</p>
               <p>Obtención de varios premios de comunicaciones presentadas en foros relacionados con la oftalmología.</p>
               
-              <h3 className="text-xl font-bold text-gray-900 mt-8 mb-4">Sociedades Científicas:</h3>
+              <h3 className="text-xl font-bold text-gray-900 mt-8 mb-4">Sociedades Científicas a las que pertenece o ha pertenecido:</h3>
               <ul className="list-disc pl-6 space-y-2 mb-8">
                   <li>Miembro de la Sociedad Española de Oftalmología (SEO).</li>
                   <li>Miembro de la Sociedad Castellano-Leonesa de Oftalmología (ACLOFT)</li>
