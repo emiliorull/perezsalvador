@@ -97,11 +97,6 @@ export function Location() {
                     </a>
                   </div>
                 </div>
-                <div className="flex items-start gap-4">
-                  <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-primary-50">
-                    <Clock className="h-5 w-5 text-primary-700" />
-                  </div>
-                </div>
               </div>
 
               {/* Form */}
