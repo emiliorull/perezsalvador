@@ -42,8 +42,7 @@ function AvisoLegal() {
       </p>
       <h2 className="text-xl font-bold text-gray-900">Titular</h2>
       <p>
-        Clínica Oftalmológica Pérez Salvador, ejercida por los Doctores D. José
-        Luis Pérez-Salvador (Colegiado 090902129) y D. Eduardo Pérez-Salvador
+        Clínica Oftalmológica Pérez Salvador, ejercida por el Dr. Eduardo Pérez-Salvador
         (Colegiado 092852936).
       </p>
       <h2 className="text-xl font-bold text-gray-900">Domicilio</h2>

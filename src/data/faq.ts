@@ -73,11 +73,11 @@ export const faqData: FAQCategory[] = [
       },
       {
         q: '¿Cómo puedo detectarla?',
-        a: "Los primeros síntomas incluyen visión borrosa central, dificultad para leer o reconocer caras, y un síntoma clave: <strong>ver las líneas rectas torcidas u onduladas (metamorfopsias)</strong>. Si percibe estos cambios, debe acudir a la clínica rápidamente para realizar un estudio del fondo de ojo y una OCT macular."
+        a: "Los primeros síntomas incluyen visión borrosa central, dificultad para leer o reconocer caras, y un síntoma clave: <strong>ver las líneas rectas torcidas u onduladas (metamorfopsias) y/o ver zona negra fija (escotoma)</strong>. Si percibe estos cambios, debe acudir a la clínica rápidamente para realizar un estudio del fondo de ojo y una OCT macular."
       },
       {
         q: '¿Tiene tratamiento?',
-        a: "La forma 'seca' de la DMAE evoluciona lentamente y se trata con suplementos vitamínicos y antioxidantes. La forma 'húmeda' o exudativa (más agresiva y rápida) se trata mediante <strong>inyecciones intravítreas de fármacos antiangiogénicos</strong>, que frenan el sangrado y la inflamación de los vasos anómalos."
+        a: "La forma 'húmeda' o exudativa (más agresiva y rápida) se trata mediante <strong>inyecciones intravítreas de fármacos antiangiogénicos</strong>, que frenan el sangrado y la inflamación de los vasos anómalos."
       }
     ]
   },

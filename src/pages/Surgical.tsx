@@ -61,7 +61,7 @@ export function Surgical({ navigate }: SurgicalProps) {
               <p className="mt-5 leading-relaxed text-gray-700">
                 La mayoría de las intervenciones quirúrgicas se realizan en los
                 quirófanos de la Clínica Recoletas en Burgos, garantizando la
-                máxima seguridad y tecnología. Contamos con instrumental óptico
+                máxima seguridad y tecnología. Contamos con instrumental oftalmológico
                 de alta precisión para ofrecer los mejores resultados en cada
                 procedimiento.
               </p>

@@ -18,7 +18,7 @@ export function Footer({ navigate }: FooterProps) {
               className="h-14 w-auto rounded bg-white/95 p-1"
             />
             <p className="mt-4 text-sm leading-relaxed text-gray-400">
-              Cuidamos tus ojos para que lo veas claro y nítido. Oftalmología de
+              Cuidamos sus ojos para que lo vea claro y nítido. Oftalmología de
               referencia en Burgos.
             </p>
           </div>
@@ -71,10 +71,6 @@ export function Footer({ navigate }: FooterProps) {
                   <Mail className="h-4 w-4 shrink-0 text-primary-400" />
                   {clinicInfo.email}
                 </a>
-              </li>
-              <li className="flex items-start gap-2">
-                <Clock className="mt-0.5 h-4 w-4 shrink-0 text-primary-400" />
-                <span>Lunes a Viernes<br />10:00 – 14:00 / 16:00 – 19:00</span>
               </li>
             </ul>
           </div>
