@@ -50,7 +50,7 @@ export function Surgical({ navigate }: SurgicalProps) {
                 />
               </div>
               <p className="mt-3 text-center text-sm text-gray-500">
-                Quirófano equipado con instrumental óptico de alta precisión
+                Quirófano equipado con instrumental oftalmológico de alta precisión
               </p>
             </div>
 
