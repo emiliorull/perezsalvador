@@ -17,7 +17,7 @@ export function Surgical({ navigate }: SurgicalProps) {
     {
       icon: HeartPulse,
       title: 'Tecnología avanzada',
-      desc: 'Instrumental óptico de última generación para cirugía de precisión.',
+      desc: 'Instrumental oftalmológico de última generación para cirugía de precisión.',
     },
     {
       icon: Building2,
@@ -45,7 +45,7 @@ export function Surgical({ navigate }: SurgicalProps) {
               <div className="overflow-hidden rounded-2xl shadow-xl">
                 <img
                   src="/images/quirofano.jpg"
-                  alt="Quirófano con instrumental óptico de alta precisión"
+                  alt="Quirófano con instrumental oftalmológico de alta precisión"
                   className="aspect-[4/3] w-full object-cover"
                 />
               </div>
