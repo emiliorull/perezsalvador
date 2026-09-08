@@ -1,4 +1,4 @@
-﻿import { Mail, Award, GraduationCap, Briefcase, BadgeCheck, UserCheck, Building } from 'lucide-react';
+import { Mail, Award, GraduationCap, Briefcase, BadgeCheck, UserCheck, Building } from 'lucide-react';
 import { PageHeader } from '../components/PageHeader';
 import { clinicInfo } from '../data/pages';
 
@@ -17,7 +17,7 @@ const doctors: Doctor[] = [
   {
     name: 'Dr. Eduardo Pérez-Salvador',
     collegiate: 'Colegiado 092852936',
-    image: '/images/dr-eduardo-perez-salvador.jpg',
+    image: '/images/eduardoperezsalvador03.jpg',
     email: 'eduardo@perezsalvadoroftalmologos.com',
     bio: 'Licenciado por la Universidad de Navarra. Alumno interno por méritos. Especialista en Oftalmología y Cirugía Vitreorretiniana. Miembro de la SERV (Sociedad Española de Retina y Vítreo) y fue Vocal por Burgos de la ACLOFT.',
     highlights: [

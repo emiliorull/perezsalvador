@@ -44,7 +44,7 @@ export function Surgical({ navigate }: SurgicalProps) {
             <div>
               <div className="overflow-hidden rounded-2xl shadow-xl">
                 <img
-                  src="/images/quirofano.jpg"
+                  src="/images/area-quirurgica-nueva.jpg"
                   alt="Quirófano con instrumental oftalmológico de alta precisión"
                   className="aspect-[4/3] w-full object-cover"
                 />
