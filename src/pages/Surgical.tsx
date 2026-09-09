@@ -68,7 +68,7 @@ export function Surgical({ navigate }: SurgicalProps) {
               <p className="mt-4 leading-relaxed text-gray-700">
                 Nuestras especialidades quirúrgicas incluyen cirugía de
                 catarata mediante facoemulsificación, cirugía refractiva con
-                láser excímer, cirugía vitrorretiniana, cirugía oculoplástica y
+                láser excímer, cirugía vitreorretiniana, cirugía oculoplástica y
                 tratamiento del glaucoma, entre otras.
               </p>
 

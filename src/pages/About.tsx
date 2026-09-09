@@ -23,7 +23,7 @@ const doctors: Doctor[] = [
     highlights: [
       'Licenciado por la Universidad de Navarra',
       'Doctor en Medicina y Cirugía con Sobresaliente CUM LAUDE',
-      'Especialista en Oftalmología y Cirugía Oculoplástica',
+      'Especialista en Oftalmología y Cirugía Vitreorretiniana',
       'Miembro de la SERV – Sociedad Española de Retina y Vítreo',
       'ex-Vocal por Burgos de la ACLOFT',
     ],

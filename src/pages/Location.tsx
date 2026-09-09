@@ -29,7 +29,7 @@ export function Location() {
         alert("Hubo un error al enviar el formulario.");
       }
     } catch (error) {
-      alert("Error de conexión. Inténtalo de nuevo.");
+      alert("Error de conexión. Inténtelo de nuevo.");
     }
   };
 
@@ -44,7 +44,7 @@ export function Location() {
     <div>
       <PageHeader
         title="Ubicación clínica y Contacto"
-        subtitle="Estamos en el corazón de Burgos. Pide tu cita o resuelve cualquier duda contactando directamente con nosotros."
+        subtitle="Estamos en el corazón de Burgos. Pida su cita o resuelva cualquier duda contactando directamente con nosotros."
       />
 
       <section className="bg-white py-16 lg:py-24">
@@ -107,8 +107,8 @@ export function Location() {
                 <div className="mt-6 flex items-start gap-3 rounded-xl border border-green-200 bg-green-50 p-5">
                   <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-green-600" />
                   <p className="text-sm text-green-800">
-                    Gracias por contactarnos. Hemos recibido tu mensaje y nos
-                    pondremos en contacto contigo lo antes posible.
+                    Gracias por contactarnos. Hemos recibido su mensaje y nos
+                    pondremos en contacto con usted lo antes posible.
                   </p>
                 </div>
               ) : (
@@ -143,7 +143,7 @@ export function Location() {
                       name="name"
                       required
                       className="mt-1 block w-full rounded-lg border border-gray-300 px-4 py-2.5 text-sm focus:border-primary-500 focus:ring-2 focus:ring-primary-200 focus:outline-none"
-                      placeholder="Tu nombre"
+                      placeholder="Su nombre"
                     />
                   </div>
                   <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
@@ -156,7 +156,7 @@ export function Location() {
                         name="email"
                         required
                         className="mt-1 block w-full rounded-lg border border-gray-300 px-4 py-2.5 text-sm focus:border-primary-500 focus:ring-2 focus:ring-primary-200 focus:outline-none"
-                        placeholder="tucorreo@email.com"
+                        placeholder="sucorreo@email.com"
                       />
                     </div>
                     <div>
@@ -180,7 +180,7 @@ export function Location() {
                       required
                       rows={4}
                       className="mt-1 block w-full rounded-lg border border-gray-300 px-4 py-2.5 text-sm focus:border-primary-500 focus:ring-2 focus:ring-primary-200 focus:outline-none"
-                      placeholder="Cuéntanos brevemente cómo podemos ayudarte"
+                      placeholder="Cuéntenos brevemente cómo podemos ayudarle"
                     />
                   </div>
                   <div className="flex items-start gap-3">

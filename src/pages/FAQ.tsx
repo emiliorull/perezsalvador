@@ -67,10 +67,10 @@ export function FAQ() {
           ))}
 
           <div className="mt-14 rounded-2xl bg-primary-900 p-8 text-center text-white">
-            <h3 className="text-xl font-bold">¿Tienes más dudas?</h3>
+            <h3 className="text-xl font-bold">¿Tiene más dudas?</h3>
             <p className="mt-2 text-primary-100">
-              Estaremos encantados de atenderte y resolver cualquier consulta
-              sobre tu salud visual.
+              Estaremos encantados de atenderle y resolver cualquier consulta
+              sobre su salud visual.
             </p>
             <a
               href={clinicInfo.phoneHref}
