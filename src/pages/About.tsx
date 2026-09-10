@@ -154,7 +154,7 @@ export function About({ navigate }: { navigate: (to: string) => void }) {
             <Briefcase className="mx-auto h-8 w-8 text-primary-600" />
             <p className="mx-auto mt-4 max-w-2xl text-gray-600">
               Nuestra clínica está ubicada en {clinicInfo.address},{' '}
-              {clinicInfo.postalCode} {clinicInfo.city}. Puedes solicitar cita
+              {clinicInfo.postalCode} {clinicInfo.city}. Puede solicitar cita
               llamando al{' '}
               <a
                 href={clinicInfo.phoneHref}

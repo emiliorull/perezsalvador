@@ -113,7 +113,7 @@ export function Home({ navigate }: HomeProps) {
               Áreas principales
             </h2>
             <p className="mt-4 text-lg text-gray-600">
-              Conoce nuestra clínica, nuestra tecnología y las especialidades
+              Conozca nuestra clínica, nuestra tecnología y las especialidades
               que tratamos.
             </p>
           </div>
@@ -175,10 +175,10 @@ export function Home({ navigate }: HomeProps) {
       <section className="bg-white py-16 lg:py-20">
         <div className="mx-auto max-w-4xl px-4 text-center sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            ¿Necesitas una revisión oftalmológica?
+            ¿Necesita una revisión oftalmológica?
           </h2>
           <p className="mt-4 text-lg text-gray-600">
-            Pide tu cita hoy mismo. Estaremos encantados de cuidar de tu salud
+            Pida su cita hoy mismo. Estaremos encantados de cuidar de su salud
             visual.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-3">
